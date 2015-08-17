@@ -1,0 +1,5 @@
+# Enable colors in cli tools
+export CLICOLOR=1
+
+# Enable solarized
+source ~/solarized/mintty-colors-solarized/mintty-solarized-dark.sh

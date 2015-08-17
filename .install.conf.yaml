@@ -1,2 +1,3 @@
 - link:
     ~/.bashrc: bashrc
+    ~/.bashrc.d: bashrc.d

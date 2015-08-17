@@ -1,0 +1,3 @@
+
+# Configure VirtualBox
+export PATH=$PATH:"/cygdrive/c/Program Files/Oracle/VirtualBox"

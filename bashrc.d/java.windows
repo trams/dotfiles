@@ -1,0 +1,3 @@
+# Configure JAVA & maven
+export JAVA_HOME="/cygdrive/c/Program Files/Java/jdk1.8.0_51/jre/"
+export PATH=$PATH:$HOME/playground/apache-maven/bin
