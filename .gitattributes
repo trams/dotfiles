@@ -1,0 +1,2 @@
+bashrc eol=lf
+bashrc.d/* eol=lf
