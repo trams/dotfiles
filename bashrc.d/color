@@ -2,4 +2,6 @@
 export CLICOLOR=1
 
 # Enable solarized
-source ~/solarized/mintty-colors-solarized/mintty-solarized-dark.sh
+if [ -f ~/solarized/mintty-colors-solarized/mintty-solarized-dark.sh ]; then
+    source ~/solarized/mintty-colors-solarized/mintty-solarized-dark.sh;
+fi
