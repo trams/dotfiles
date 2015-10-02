@@ -1,0 +1,11 @@
+# If set to ‘on’, Readline performs filename matching and completion in a case-insensitive fashion. The default value is ‘off’.
+set completion-ignore-case on
+
+# If set to ‘on’, and completion-ignore-case is enabled, Readline treats hyphens (‘-’) and underscores (‘_’) as equivalent when performing case-insensitive filename matching and completion.
+set completion-map-case on
+
+# If set to ‘on’, completed names which are symbolic links to directories have a slash appended (subject to the value of mark-directories). The default is ‘off’.
+set mark-symlinked-directories on
+
+# If set to ‘on’, this alters the default completion behavior when inserting a single match into the line. It’s only active when performing completion in the middle of a word. If enabled, readline does not insert characters from the completion that match characters after point in the word being completed, so portions of the word following the cursor are not duplicated. For instance, if this is enabled, attempting completion when the cursor is after the ‘e’ in ‘Makefile’ will result in ‘Makefile’ rather than ‘Makefilefile’, assuming there is a single possible completion. The default value is ‘off’.
+set skip-completed-text on

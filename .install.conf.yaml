@@ -2,3 +2,4 @@
     ~/.bashrc: bashrc
     ~/.bashrc.d: bashrc.d
     ~/.gitconfig: gitconfig
+    ~/.inputrc: inputrc
