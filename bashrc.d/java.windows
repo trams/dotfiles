@@ -4,6 +4,6 @@ elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
     true;
 elif [ "$(expr substr $(uname -s) 1 9)" == "CYGWIN_NT" ]; then
     # Configure JAVA & maven
-    export JAVA_HOME="/cygdrive/c/Program Files/Java/jdk1.8.0_51/jre/"
-    export PATH=$PATH:$HOME/playground/apache-maven/bin
+    export JAVA_HOME="/cygdrive/c/Program Files/Java/jdk1.7.0_79/jre/"
+    export PATH=$PATH:$HOME/playground/apache-maven/bin:/cygdrive/c/Program\ Files/Java/jdk1.7.0_79/bin
 fi
