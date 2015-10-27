@@ -1,2 +1,4 @@
 bashrc eol=lf
 bashrc.d/* eol=lf
+vimrc eol=lf
+inputrc eol=lf
