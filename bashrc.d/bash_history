@@ -1,4 +1,17 @@
 # Avoid duplicates
-export HISTCONTROL=ignoredups:erasedups  
+export HISTCONTROL=ignoredups:erasedups
 # When the shell exits, append to the history file instead of overwriting it
 shopt -s histappend
+
+# Dump command to a history before executing a prompt
+PROMPT_COMMAND="history -a; history -c; history -r; ${PROMPT_COMMAND}"
+
+# Infinite history
+export HISTSIZE=
+export HISTFILESIZE=
+
+# Save history for vagrant VMs
+if test $USER = "vagrant"
+then
+  export HISTFILE=/vagrant/.bash_eternal_history
+fi
