@@ -2,7 +2,6 @@
 	name = Oleksandr Pryimak
 	email = oleksandr.pryimak@gmail.com
 [core]
-	autocrlf = true
 	filemode = false
 	editor = vim
 [push]
