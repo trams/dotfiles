@@ -1,0 +1,4 @@
+alias scala_console="mvn scala:console -Djline.shutdownhook=true"
+
+export AGENTLIB_SUSPEND=-agentlib:jdwp=transport=dt_socket,server=y,address=5432,suspend=y
+export AGENTLIB_NOTSUSPEND=-agentlib:jdwp=transport=dt_socket,server=y,address=5432,suspend=n
