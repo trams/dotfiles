@@ -1,0 +1,19 @@
+
+# Run ssh-add if any
+if which ssh-add; then
+  ssh-add
+fi
+
+# Hadoop related helpers
+function pailcat {
+    hdfs dfs -text $1 | sed 's/^...../0a/' | xxd -p -r
+}
+
+function pailless {
+    pailcat $1 | less
+}
+
+# Add ~/bin folder if there are any
+if test -d $HOME/bin; do
+  export PATH=$HOME/bin:$PATH
+fi
