@@ -1,0 +1,5 @@
+if [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
+  if [ -f /etc/bash_completion.d/git ]; then
+    . /etc/bash_completion.d/git
+  fi
+fi
