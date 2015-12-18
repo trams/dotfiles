@@ -1,7 +1,9 @@
 
 # Run ssh-add if any
-if which ssh-add; then
-  ssh-add
+if which ssh-add 1>/dev/null; then
+  if [[ `hostname -f` == OleksandrMac ]]; then
+    ssh-add
+  fi
 fi
 
 # Hadoop related helpers
