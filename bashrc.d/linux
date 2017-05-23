@@ -1,2 +1,3 @@
 export PATH=$PATH:$HOME/projects/vertica/opt/vertica/bin/
-export MAVEN_OPTS="-Xmx8000m -XX:MaxPermSize=1024m -XX:-UseGCOverheadLimit"
+export MAVEN_OPTS="-Xmx8000m -XX:-UseGCOverheadLimit -XX:+TieredCompilation -XX:TieredStopAtLevel=1
+"
