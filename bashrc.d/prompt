@@ -3,7 +3,10 @@
 
 PRETTY_HOST="\h"
 if test $HOSTNAME = 24-8a-07-77-61-c0; then
-  PRETTY_HOST="PA4"
+  PRETTY_HOST="user-pa4.prod"
+fi
+if test $HOSTNAME = 7c-fe-90-aa-c5-80; then
+  PRETTY_HOST="prod-pa4.prod"
 fi
 
 if [[ $TERM == xterm* ]] || [[ $TERM == screen ]]; then
