@@ -1,6 +1,8 @@
 # Enable colors in cli tools
 export CLICOLOR=1
 
+alias ls='ls --color'
+
 # Enable solarized
 if [ -f ~/solarized/mintty-colors-solarized/mintty-solarized-dark.sh ]; then
     source ~/solarized/mintty-colors-solarized/mintty-solarized-dark.sh;
