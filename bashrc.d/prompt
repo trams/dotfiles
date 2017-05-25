@@ -2,10 +2,9 @@
 # Requires tput
 
 PRETTY_HOST="\h"
-if test $HOSTNAME = e4-1d-2d-1d-00-a0; then
+if test $HOSTNAME = 24-8a-07-77-61-c0; then
   PRETTY_HOST="PA4"
 fi
-
 
 if [[ $TERM == xterm* ]] || [[ $TERM == screen ]]; then
   export PS1="\[$(tput setaf 2)\]\u@\[$(tput setaf 1)\]$PRETTY_HOST \[$(tput setaf 2)\]\w\[$(tput setaf 3)\] $ \[$(tput sgr0)\]"
