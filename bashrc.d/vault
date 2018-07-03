@@ -1,0 +1,4 @@
+
+if which vault; then
+  complete -C /home/opryimak/bin/vault vault
+fi
