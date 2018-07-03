@@ -4,3 +4,4 @@
     ~/.gitconfig: gitconfig
     ~/.inputrc: inputrc
     ~/.vimrc: vimrc
+    ~/.screenrc: screenrc
