@@ -1,5 +1,0 @@
-if [ "$(uname)" == "Darwin" ]; then
-  if tty > /dev/null && test -f $HOME/.iterm2_shell_integration.bash; then
-    . $HOME/.iterm2_shell_integration.bash
-  fi
-fi

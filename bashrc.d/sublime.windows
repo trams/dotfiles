@@ -1,9 +1,0 @@
-
-if [ "$(uname)" == "Darwin" ]; then
-    true;
-elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
-    true;
-elif [ "$(expr substr $(uname -s) 1 9)" == "CYGWIN_NT" ]; then
-    # Configure Sublime (to be able to use subl tool)
-    export PATH=$PATH:"/cygdrive/c/Program Files/Sublime Text 3"
-fi
