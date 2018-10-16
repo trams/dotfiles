@@ -1,0 +1,6 @@
+if [ -f /etc/bash_completion ]; then
+  . /etc/bash_completion
+fi
+if [ -f $HOME/projects/hdfs-completer/hdfs_completer_unix.sh ]; then
+  . $HOME/projects/hdfs-completer/hdfs_completer_unix.sh
+fi
