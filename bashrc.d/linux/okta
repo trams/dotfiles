@@ -1,0 +1,9 @@
+okta-login() {
+  if [[ -z "$1" ]]; then
+    >&2 echo 'Usage: okta-login <profile>';
+    return 1;
+  fi
+  export OKTA_PROFILE=$1
+  export AWS_PROFILE=$1_source
+  ~/.okta/login
+}
