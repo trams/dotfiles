@@ -6,7 +6,5 @@
 	editor = vim
 [color]
 	ui = true
-[alias]
-	review = push origin HEAD:refs/publish/master
 [push]
 	default = simple
