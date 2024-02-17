@@ -1,2 +1,0 @@
-unset HADOOP_CLASSPATH
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/hadoop/lib/native
