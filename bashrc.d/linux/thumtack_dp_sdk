@@ -6,7 +6,7 @@ if [ -f '/opt/thumbtack/dp-sdk/google-cloud-sdk/completion.bash.inc' ]; then
   source /opt/thumbtack/dp-sdk/google-cloud-sdk/completion.bash.inc
 fi
 
-export NVM_DIR="/home/sasha/.nvm"
+export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 export PATH=/opt/thumbtack/dp-sdk/google-cloud-sdk/bin:$PATH
@@ -17,4 +17,4 @@ export SPARK_HOME="/opt/thumbtack/dp-sdk/spark"
 export SPARK_DIST_CLASSPATH="$(/opt/thumbtack/dp-sdk/hadoop/bin/hadoop classpath)"
 
 export PATH=$SPARK_HOME/bin:$PATH
-export SBT_OPTS="-Dsbt.override.build.repos=true -Dsbt.boot.credentials=/home/sasha/.sbt/credentials.properties -Xmx8g"
+export SBT_OPTS="-Dsbt.override.build.repos=true -Dsbt.boot.credentials=$HOME/.sbt/credentials.properties -Xmx8g"
